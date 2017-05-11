@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"></string>
+    <string name="a"></string>
+    <string name="amarillo">Yellow</string>
+    <string name="blanco">white</string>
+    <string name="borrar">delete</string>
+    <string name="carerconomico">Data of the most economical car registered</string>
+    <string name="carmarca">No of cars by registered trademark</string>
+    <string name="carregistrados">No of registered cars</string>
+    <string name="carro_caro">Expensive car</string>
+    <string name="carroeco">Economy Car</string>
+    <string name="chevrolet"></string>
+    <string name="error1">Enter the plate</string>
+    <string name="guardar">Save</string>
+    <string name="listar">List Cars</string>
+    <string name="marca">brand</string>
+    <string name="mensaje">Record Saved Successfully</string>
+    <string name="mensaje2">The number of registered cars is:</string>
+    <string name="modelo">Model</string>
+    <string name="negro">Black</string>
+    <string name="numero">Number</string>
+    <string name="placa">license plate</string>
+    <string name="precio">Price</string>
+    <string name="registrar">Register Cars</string>
+    <string name="registrocarros">Register Cars</string>
+    <string name="reportes">Reports</string>
+    <string name="rojo">Red</string>
+    <string name="selecion">Select your vehicle</string>
+    <string name="title_activity_registro_carro">Register Cars</string>
+</resources>

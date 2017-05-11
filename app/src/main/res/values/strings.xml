@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="title_activity_registro_carro">RegistroCarro</string>
+    <string name="registrocarros">Registrar Carros</string>
+    <string name="placa">Placa</string>
+    <string name="marca">Marca</string>
+    <string name="modelo">Modelo</string>
+    <string name="color">Color</string>
+    <string name="precio">Precio</string>
+    <string name="guardar">Guardar</string>
+    <string name="borrar">Borrar</string>
+    <string name="registrar">Registrar Carros</string>
+    <string name="listar">Listar Carros</string>
+    <string name="reportes">Reportes</string>
+    <string name="kia">Kia</string>
+    <string name="chevrolet">Chevrolet</string>
+    <string name="volvo">Volvo</string>
+    <string name="renault">Renault</string>
+    <string name="mazda">Mazda</string>
+    <string name="nissan">Nissan</string>
+    <string name="a">2010</string>
+    <string name="b">2011</string>
+    <string name="c">2012</string>
+    <string name="d">2013</string>
+    <string name="f">2014</string>
+    <string name="g">2015</string>
+    <string name="h">2016</string>
+    <string name="i">2017</string>
+    <string name="rojo">Rojo</string>
+    <string name="amarillo">Amarillo</string>
+    <string name="negro">Negro</string>
+    <string name="numero">Numero</string>
+    <string name="blanco">Blanco</string>
+    <string name="error1">Digite la placa</string>
+    <string name="mensaje">Registro Guardado Exitosamente</string>
+    <string name="carmarca">No de carros por marca registrados</string>
+    <string name="carregistrados">No de carros registrados</string>
+    <string name="carerconomico">Datos del carro mas economico registrado</string>
+    <string name="mensaje2">El numero de carros registrados es:</string>
+    <string name="selecion">Selecione su vehiculo</string>
+    <string name="carro_caro">Carro caro</string>
+    <string name="carroeco">Carro Economico</string>
+
+    <string-array name="opciones">
+        <item>@string/registrar</item>
+        <item>@string/listar</item>
+        <item>@string/reportes</item>
+    </string-array>
+    <string-array name="opcionesrepor">
+        <item>@string/carmarca</item>
+        <item>@string/carregistrados</item>
+        <item>@string/carerconomico</item>
+    </string-array>
+
+    <string-array name="marca">
+        <item>@string/kia</item>
+        <item>@string/chevrolet</item>
+        <item>@string/volvo</item>
+        <item>@string/renault</item>
+        <item>@string/mazda</item>
+        <item>@string/nissan</item>
+    </string-array>
+
+    <string-array name="modelo">
+        <item>@string/a</item>
+        <item>@string/b</item>
+        <item>@string/c</item>
+        <item>@string/d</item>
+        <item>@string/f</item>
+        <item>@string/g</item>
+        <item>@string/h</item>
+        <item>@string/i</item>
+    </string-array>
+
+    <string-array name="color">
+        <item>@string/rojo</item>
+        <item>@string/negro</item>
+        <item>@string/amarillo</item>
+        <item>@string/blanco</item>
+    </string-array>
+
+</resources>

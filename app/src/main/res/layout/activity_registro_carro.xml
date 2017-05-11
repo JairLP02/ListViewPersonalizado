@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.latinproduction.carros.RegistroCarro">
+
+    <LinearLayout
+        android:layout_width="387dp"
+        android:layout_height="585dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="11dp">
+
+        <TextView
+            android:id="@+id/txtnombreAplica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registrocarros"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtPlacaa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/placa"
+            android:inputType="textPersonName"
+            android:textAlignment="textStart"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/txtMarcaa"
+                android:layout_width="99dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.49"
+                android:text="@string/marca"
+                android:textSize="24sp" />
+
+            <Spinner
+                android:id="@+id/spMarca"
+                android:layout_width="272dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/txtModeloo"
+                android:layout_width="99dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.49"
+                android:text="@string/modelo"
+                android:textSize="24sp" />
+
+            <Spinner
+                android:id="@+id/spModelo"
+                android:layout_width="272dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.01" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtColor"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:text="@string/color"
+                android:textSize="24sp" />
+
+            <Spinner
+                android:id="@+id/spColor"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/txtPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/precio"
+            android:inputType="number"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnGuardar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="registrar"
+                android:text="@string/guardar" />
+
+            <Button
+                android:id="@+id/btnBorrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="borrar"
+                android:text="@string/borrar" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
