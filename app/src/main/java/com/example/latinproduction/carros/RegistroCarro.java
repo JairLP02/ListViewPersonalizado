@@ -23,10 +23,11 @@ public class RegistroCarro extends AppCompatActivity {
 
         res = this.getResources();
         plac = (EditText)findViewById(R.id.txtPlacaa);
-        preci = (EditText)findViewById(R.id.txtPrecio);
         marc = (Spinner)findViewById(R.id.spMarca);
         model = (Spinner)findViewById(R.id.spModelo);
         colo = (Spinner)findViewById(R.id.spColor);
+        preci = (EditText)findViewById(R.id.txtPrecio);
+
 
         opc = res.getStringArray(R.array.marca);
         opc2 = res.getStringArray(R.array.modelo);
@@ -42,7 +43,7 @@ public class RegistroCarro extends AppCompatActivity {
 
     }
     public void registrar(View v){
-        String placa,marca,modelo,color,foto;
+        String foto,placa,marca,modelo,color;
         int precio;
 
         placa = plac.getText().toString().trim();
@@ -52,7 +53,7 @@ public class RegistroCarro extends AppCompatActivity {
         precio = Integer.parseInt(preci.getText().toString().trim());
 
         foto = String.valueOf(fotoAleatoria());
-        Carro c = new Carro(placa,marca,modelo,color,foto,precio);
+        Carro c = new Carro(foto,placa,marca,modelo,color,precio);
         c.guardar();
 
         new AlertDialog.Builder(this).setMessage(res.getString(R.string.mensaje)).show();
